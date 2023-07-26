@@ -1,8 +1,8 @@
 # Using OpenVDB to process .stl file:
-	* .stl to .obj subdivided
-	* subdivisio to level-set
-	* mean curve iteration
-	* fog from level-set
+	- .stl to .obj subdivided
+	- subdivisio to level-set
+	- mean curve iteration
+	- fog from level-set
 
 ## COMPILATION:
 
@@ -32,16 +32,16 @@ To compile and run 'Problem 1' do the following steps:
   		R,r         reset mesh to the original object
   		S,s         save subdivided .obj file
 
-STEP 2: copy the data from 'loop-subdiv-GUI' to 'project-01'
-	# copy 'subdiv_obj_hw1.obj' file from the 'loop-subdiv-GUI/project-01/data' directory and paste it into the 'project-01/data' directory
+### STEP 2: copy the data from 'loop-subdiv-GUI' to 'project-01'
+	- copy 'subdiv_obj_hw1.obj' file from the 'loop-subdiv-GUI/project-01/data' directory and paste it into the 'project-01/data' directory
 
-STEP 3:
-	# open Terminal in ‘project-01’ directory
-	# install OpenVDB library: https://github.com/AcademySoftwareFoundation/openvdb
-	mkdir build
-	cd build
-	cmake ..
-	make
-	# to run:
-	./solveproblem
+### STEP 3:
+	1. open Terminal in ‘project-01’ directory
+	2. install OpenVDB library: https://github.com/AcademySoftwareFoundation/openvdb
+		mkdir build
+		cd build
+		cmake ..
+		make
+	3. to run:
+		./solveproblem
 
