@@ -17,16 +17,15 @@
 
 To compile and run 'Problem 1' do the following steps:
 
-STEP 1: converting .stl input to a loop subdivided .obj file
-	# open Terminal in ‘loop-subdiv-GUI' directory
-	mkdir build
-	cd build
-	cmake ..
-	make
-	# to run:
-	./subdivision
-	# it asks you to enter the .stl file path ../data/hw1.stl and outputs an .obj file subdiv_obj_hw1.obj
-
+### STEP 1: converting .stl input to a loop subdivided .obj file
+	1. open Terminal in ‘loop-subdiv-GUI' directory
+		mkdir build
+		cd build
+		cmake ..
+		make
+	2. to run:
+		./subdivision
+	3.  it asks you to enter the .stl file path ../data/hw1.stl and outputs an .obj file subdiv_obj_hw1.obj
 		# GUI keyboard shortcuts:
 		[spacebar]    run subdivision 1X each time
   		2           run subdivision 2X
