@@ -1,18 +1,18 @@
 # Using OpenVDB to process .stl file:
-## .stl to .obj subdivided
-## subdivisio to level-set
-## mean curve iteration
-## fog from level-set
+	* .stl to .obj subdivided
+	* subdivisio to level-set
+	* mean curve iteration
+	* fog from level-set
 
 ## COMPILATION:
 
-Problem 1 is divided into two separate directories:
+### Problem 1 is divided into two separate directories:
 	1. loop-subdiv: which is a GUI-based app to subdivide the .stl file and save it as an  .obj file
 	2. project-01: which performs:
-		Subdiv_to_levelset
-		Mean_curve_iter
-		Z_scale
-		fog_from_level_set
+		1. Subdiv_to_levelset
+		2. Mean_curve_iter
+		3. Z_scale
+		4. fog_from_level_set
 
 
 To compile and run 'Problem 1' do the following steps:
